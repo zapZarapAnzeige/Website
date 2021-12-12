@@ -24,7 +24,7 @@ nav {
     box-shadow: #959da533 0px 8px 10px;
     opacity: 1;
 }
-
+/*underline effect*/
 nav li a::after{
     content: '';
     position: absolute;
@@ -43,7 +43,7 @@ nav a:hover::after {
     transform-origin: bottom center;
      transform: scaleX(1);
 }
-
+/*underline effect*/
 li {
     display: inline-block;
     list-style: none;
@@ -57,13 +57,29 @@ a {
     display: block;
 }
 
-footer {
 
+footer {
+text-align: center;
+box-shadow: #959da533 0px 8px 24px;
+    width: 1024px;
+    font-size: 10px;
+    margin: 0 auto;
 }
 
-/*a:Hover {
-    color: #008888;
-}*/
+/*darken effect*/
+footer a:Hover {
+    color: #007777;
+}
+/*darken effect*/
+hr{
+    width: 1024px;
+    margin: 0 auto;
+    /*@include .page*/
+    border-top: 2px;
+    color: #005555;
+    
+    
+}
 
 .page {
     box-shadow: #959da533 0px 8px 24px;
