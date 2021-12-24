@@ -50,7 +50,7 @@ nav a:hover::after {
 
 /*underline effect*/
 
-li {
+.menu{
     display: inline-block;
     list-style: none;
     padding: 10px;
@@ -131,18 +131,17 @@ hr {
     opacity: 0.7;
 }
 
-.box-container {
-    display: inline-block;
-}
-
 .box-item {
-    background-color: #c8d8e4;
-   /* border: 2px solid black;*/
-    width: 300px;
-    height: 200px;
+    background: ghostwhite;
+    border: 1px solid lightgray;
+    width: 100%;
+    height: auto;
     border-radius: 5px;
     text-align: center;
-    /*background: url(paper.gif);*/
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+   
 }
 
 div .maps {
@@ -152,12 +151,24 @@ div .maps {
 }
 .align-left{
     text-align: left;
+    background: ghostwhite;
 }
 .heading{
     text-align: center;
+}
+.background-ghostwhite{
+    background: ghostwhite;
 }
 
 @font-face {
     font-family: Roboto;
     src: url(./resources/fonts/Roboto-Regular.ttf);
 }
+/*
+<div class="container">
+                <img src="./img_avatar.jpg" alt="Gruppenbild der Kanzlei" class="image">
+                <div class="middle">
+                    <div class="text">Niko Burger</div>
+                </div>
+            </div>
+            */
